@@ -4,12 +4,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/normalize.css">
+  <title>Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/flexboxgrid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  
+  <section class="hero">
+    <header class="hero__header site-header">
+      <div class="container">
+        <div class="row between align-center">
+          <a class="site-header__logo-link" href="#">
+            <img class="site-header__logo" src="img/logo.svg" alt="logo">
+          </a>
+          <nav class="site-nav ">
+            <ul class="nav-list">
+              <li class="nav-item nav-item--active"><a href="#" class="nav-link">Product</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Customers</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+              <li class="nav-item nav-item__sign"><a href="#" class="nav-link btn">Sign in</a></li>
+              <li class="nav-item nav-item__sign"><a href="#" class="nav-link btn btn__green">Sign Up</a></li>
+              <li class="nav-item nav-item__btn"><button type="button"><img src="img/frame-btn.svg" alt="light-darkbtn"></button></li>
+            </ul>
+          </nav>
+          <div class="site-menu">
+            <button class="site-menu__btn"><i class='bx bx-menu'></i></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="hero-content">
+      <div class="container">
+        <div class="row align-center between hero-content--flex">
+          <div class="col-xs-12 col-lg-5">
+            <h2 class="hero__title">Work at the speed of thought</h2>
+            <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <ul class="btn-list">
+              <li class="btn-item"><a class="btn__link btn btn__green" href="#">Get started</a></li>
+              <li class="btn-item"><a class="btn__link watch-video" href="#"><i class='bx bx-play'></i> <span class="watch-video--line"> Watch the Video</span></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-lg-7  hero__right">
+            <img class="hero__img" src="img/amico-hero.svg" alt="hero-amico">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product">
+    <div class="product__container container">
+      <h2 class="product__title">Product  was Built Specifically for You</h2>
+      <ul class="products row between-md">
+        <li class="products__item col-xs-12 center-xs col-md-3 start-md">
+          <div class="products__item--before">
+            <h3 class="products__title">First click tests</h3>
+            <p class="products__text">While most people enjoy casino gambling,</p>
+          </div>
+        </li>
+        <li class="products__item col-xs-12 center-xs col-md-3 start-md">
+          <div class="products__item--before">
+            <h3 class="products__title">Design surveys</h3>
+            <p class="products__text">Sports betting, lottery and bingo playing for the fun</p>
+          </div>
+        </li>
+        <li class="products__item col-xs-12 center-xs col-md-3 start-md">
+          <div class="products__item--before">
+            <h3 class="products__title">Preference tests</h3>
+            <p class="products__text">The Myspace page defines the individual.</p>
+          </div>
+        </li>
+        <li class="products__item col-xs-12 center-xs col-md-3 start-md">
+          <div class="products__item--before">
+            <h3 class="products__title">Five second tests</h3>
+            <p class="products__text">Personal choices and the overall personality of the person. </p>
+          </div>
+        </li>
+      </ul>
+      <div class="product__btn">
+        <button class="product__btn-sign btn btn__green">SIGN UP NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="info__container container">
+      <ul class="info__list">
+        <li class="info__item row middle-md">
+          <div class="info__des col-xs-12 col-md-6 start-md">
+            <p class="info-des__big-text">Effortless Validation for</p>
+            <h2 class="info-des__title">Management</h2>
+            <p class="info-des__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <p class="info-des__sub-text">Accessory makers</p>
+            <p class="info-des__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <p class="info-des__sub-text">Alterationists</p>
+            <p class="info-des__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+          <div class="info__img col-xs-12 center-xs col-md-6 start-md">
+            <img class="info__img-sec" src="img/info-img1.svg" alt="info-img1">
+          </div>
+        </li>
+
+        <li class="info__item row reverse middle-md">
+          <div class="info__des col-xs-12 col-md-6 start-md">
+            <p class="info-des__big-text">Easier decision making for</p>
+            <h2 class="info-des__title">Customer Support</h2>
+            <p class="info-des__texts">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <p class="info-des__text info-des__text-yellow">Never worry about overpaying for your energy again. </p>
+            <p class="info-des__text info-des__text-red">We will only switch you to energy companies that we trust and will treat you right</p>
+            <p class="info-des__text info-des__text-blue">We track the markets daily and know where the savings are.</p>
+          </div>
+          <div class="info__img col-xs-12 center-xs col-md-6 start-md">
+            <img class="info__img-sec" src="img/info-img2.svg" alt="info-img2">
+          </div>
+        </li>
+
+        <li class="info__item row middle-md">
+          <div class="info__des col-xs-12 col-md-6 start-md">
+            <p class="info-des__big-text">Optimisation for</p>
+            <h2 class="info-des__title">Collaborative</h2>
+            <p class="info-des__text">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+            <p class="info-des__sub-text">Accessory makers</p>
+            <p class="info-des__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <p class="info-des__sub-text">Alterationists</p>
+            <p class="info-des__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+          <div class="info__img col-xs-12 center-xs col-md-6 start-md">
+            <img class="info__img-sec" src="img/info-img3.svg" alt="info-img3">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <script src="js/main.js"></script>
 </body>
