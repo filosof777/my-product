@@ -556,21 +556,32 @@ a {
               color 0.4s ease;
 }
 
-
-.card__item-inner:hover .card__title,
-.card__item-inner:hover .card__text,
-.card__item-inner:hover .card__text-num,
-.card__item-inner:hover .card__text-dollar,
-.card__item-inner:hover .card__mounth,
-.card__item-inner:hover .card__subtext {
+.card__item:nth-child(2) .card__item-inner > *,
+.card__item:nth-child(2) .card__text-num,
+.card__item:nth-child(2) .card__text-dollar,
+.card__item:nth-child(2) .card__mounth {
   color: #fff;
 }
 
-.card__item-inner:hover {
+.card__item:nth-child(2) .card__item-inner {
   background-color: #02897A;
 }
 
-.card__item-inner:hover .card__btn {
+/* 
+.card__item-inner:nth-child(2) .card__title,
+.card__item-inner:nth-child(2) .card__text,
+.card__item-inner:nth-child(2) .card__text-num,
+.card__item-inner:nth-child(2) .card__text-dollar,
+.card__item-inner:nth-child(2) .card__mounth,
+.card__item-inner:nth-child(2) .card__subtext {
+  color: #fff;
+} */
+
+.card__item-inner:nth-child(2) {
+  background-color: #02897A;
+}
+
+.card__item:nth-child(2) .card__item-inner .card__btn {
   background-color: #fff;
   color: #02897A;
 }
